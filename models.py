@@ -7,3 +7,5 @@ class Transaction(Base):
     id = Column(Integer, primary_key=True, index=True)
     user = Column(String)
     amount = Column(Float)
+
+    
